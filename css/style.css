@@ -1,0 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    min-height: 50vh;
+    background-image: url(../assests/Shadows.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+h1{
+        color: silver;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 12px;
+            font-family: "Pangolin", cursive;
+            font-weight: 400;
+            font-style: normal;
+          
+          
+        
+    }
+
+    h2{
+        color: silver;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+            font-family: "Pangolin", cursive;
+            font-weight: 400;
+            font-style: normal;
+          
+          
+
+
+    }
+    nav {
+        display: flex;
+        padding: 24px;
+        
+    }
+}
+
+a {
+    text-decoration: none;
+
+}
+nav a{
+    font-weight: 700;
+    letter-spacing: 1px;
+    justify-content: space-between;
+    padding: 8px 15px;
+    color: silver;
+font-family: "Doto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:
+          "ROND" 0;
+      
+
+}
+.home,nav a:hover{
+    color: black;
+}
+.link{
+border-width:2px;
+border-style: solid;
+width: fit-content;
+padding: 16px;
+}
+.mid{
+    display: flex; 
+    min-height: 50vh; 
+}
+ul{
+    list-style: none;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: silver;
+    
+
+}
+ .main>h3{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+        font-family: "Pangolin", cursive;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+ } 
+ .main>p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+        font-family: "Alumni Sans Pinstripe", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-family: "Alumni Sans Pinstripe", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+        color: black;
+      
+      
+
+ }
+ .main>ul{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+ footer{
+    min-height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../assests/Black\ Ombre\ Wallpaper\ Mural.jpeg);
+ }
+ footer a:hover{
+    color: black;
+ }
+ .snap{
+    color: yellow;
+ }
+ .app{
+    color: green;
+ }
+ .gram{
+    color: orangered;
+ }
+ 
+    
+ .icon{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8px 16px;
+    justify-content: baseline;
+ }
+ .cat{
+    color: black;
+ }
+ footer>img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+ }
+ .icon h3{
+    
+        font-family: "Shadows Into Light", cursive;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+ }
+ 
+ 
+
+
+
+
